@@ -1,0 +1,22 @@
+""" Utilities """
+
+tag2idx = {'B-art': 14,
+           'B-eve': 16,
+           'B-geo': 0,
+           'B-gpe': 13,
+           'B-nat': 12,
+           'B-org': 10,
+           'B-per': 4,
+           'B-tim': 2,
+           'I-art': 5,
+           'I-eve': 7,
+           'I-geo': 15,
+           'I-gpe': 8,
+           'I-nat': 11,
+           'I-org': 3,
+           'I-per': 6,
+           'I-tim': 1,
+           'X': 17,
+           'O': 9,
+           '[CLS]': 18,
+           '[SEP]': 19}
